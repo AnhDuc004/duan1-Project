@@ -9,7 +9,7 @@
                 <div class="div-avt col ">
                     <div class="div-input-box ">
                         <div class="div-img">
-                            <img width="600px" height="550px" name="avatar" src="../../Public/upload/<?= $data['admin']['avatar'] ?>" alt="">
+                            <img width="600px" height="550px" style="object-fit:cover; border-radius: 10px;" name="avatar" src="../../Public/upload/<?= $data['admin']['avatar'] ?>" alt="">
                         </div>
                         
                         <input type="file" name="avatar" class="mt-3"  style="width: 100%" value="">
