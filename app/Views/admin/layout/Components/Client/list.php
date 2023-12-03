@@ -31,7 +31,7 @@
                 <tr>
                     <th scope="col" class=" p-3 w-20 text-nowrap">#</th>
                     <th scope="col" class=" p-3 w-20 text-nowrap">Tên Khách Hàng</th>
-                    <th scope="col" class=" p-3 w-20 text-nowrap">Account</th>
+                    <th scope="col" class=" p-3 w-20 text-nowrap">Account </th>
                     <th scope="col" class=" p-3 w-20 text-nowrap">Email</th>
                     <th scope="col" class=" p-3 w-20 text-nowrap">Địa Chỉ</th>
                     <th scope="col" class=" p-3 w-20 text-nowrap">Số Điện Thoại</th>
