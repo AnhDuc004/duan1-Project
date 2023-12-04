@@ -1,5 +1,5 @@
 <?php require_once "./app/Views/client/layout/Pages/header.php"; ?>
-<div class="div-main-content">
+<div class="div-main-content" >
     <div class="detail-content">
         <div class="detail-row flex">
             <div>

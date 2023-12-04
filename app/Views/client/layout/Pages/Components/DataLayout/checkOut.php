@@ -22,7 +22,7 @@
                             </thead>
                             <tbody>
                                 <tr class="tr-infor">
-                                    <td><input type="text" class="inputDis" name="username" id="" value="<?= $_SESSION['username'] ?? '' ?>" disabled></td>
+                                    <td><input type="text" class="inputDis" name="username" id="" value="<?= $_SESSION['username'] ?? '' ?>" disabled> </td>
                                     <td><input type="text" class="inputDis" name="email" id="" value="<?= $_SESSION['email'] ?? '' ?>" disabled></td>
                                     <td><input type="text" class="inputDis" name="phoneNumber" id="" value="<?= $_SESSION['phone'] ?? '' ?>" disabled></td>
                                     <td><input type="text" class="inputDis" name="address" id="" value="<?= $_SESSION['address'] ?? '' ?>" disabled></td>

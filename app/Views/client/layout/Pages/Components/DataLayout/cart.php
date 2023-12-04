@@ -1,6 +1,6 @@
 <?php require_once "./app/Views/client/layout/Pages/header.php"; ?>
 
-<div class="div-container-cart">
+<div class="div-container-cart" >
     <img src="" alt="">
     <div class="div-main-cart">
         <?php if (count($_SESSION['carts']) > 0) : ?>

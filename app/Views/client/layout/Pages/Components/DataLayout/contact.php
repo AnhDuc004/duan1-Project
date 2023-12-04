@@ -5,7 +5,7 @@
             LIÊN HỆ
 
         </h2>
-        <div class="div-contact-content" style="display: flex;gap: 40px; ">
+        <div class="div-contact-content" style="display: flex;gap: 40px;">
             <p class="p-contact-main">
                 Trường Cao Đẳng FPT Polytechnic
                 <br>
