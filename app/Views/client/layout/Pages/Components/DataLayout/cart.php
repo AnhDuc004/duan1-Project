@@ -16,7 +16,7 @@
                 </div>
                 <thead class="thead-title">
                     <tr class="tr-title">
-                        <td class="td-cart"></td>
+                        <td class="td-cart"> </td>
                         <td class="td-cart">Tiêu đề</td>
                         <td class="td-cart">Giá</td>
                         <td class="td-cart">Số lượng</td>

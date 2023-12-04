@@ -27,7 +27,7 @@
                     <span class="span-err" style="color:red;font-weight:bold;font-style:italic"><?= $data['password_err'] ?? '' ?> </span>
                 </div>
                 <div class="div-input-box" style="display: flex;justify-content: flex-end;width: 150%;">
-                    <button class="submit-btn " style="width: 100px;" type="submit">Gửi</button>
+                    <button class="submit-btn " style="width: 100px;" type="submit">Gửi </button>
                 </div>
             </form>
         </div>

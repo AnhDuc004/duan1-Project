@@ -30,7 +30,7 @@
                                 <p class="p-bookname-popup"><?= $bookSearch['bookName'] ?></p>
                                 <div class="div-infor-book">
                                     <ul class="ul-infor-book">
-                                        <li class="li-infor-book"><?= $bookSearch['cateName'] ?> </li>
+                                        <li class="li-infor-book"><?= $bookSearch['cateName'] ?></li>
                                         <li class="li-infor-book"><?= $bookSearch['authorName'] ?></li>
                                         <li class="li-infor-book"><?= $bookSearch['dateAdded'] ?></li>
                                     </ul>
@@ -38,7 +38,7 @@
                                 <p class="p-price">
 
                                     <a href="#" class="a-price"> <?= number_format($bookSearch['price']) ?></a>
-                                    <a href="#" class="a-buyNow">Mua ngay</a>
+                                    <a href="#" class="a-buyNow">Mua ngay </a>
                                 </p>
                             </div>
                         </ul>

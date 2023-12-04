@@ -1,6 +1,6 @@
 <?php require_once "./app/Views/admin/layout/Components/header.php";?>
 
-<div class="div-update-contain">
+<div class="div-update-contain" >
     <div class="div-form-update">
         <form action="<?= URL ?>Admin/profile/<?= $data['admin']['clientID'] ?>" class="form-login ml-3" method="post" enctype="multipart/form-data">
             <h2 class="h3-login">Profile</h3>

@@ -30,7 +30,7 @@
     <table class="table text-center">
       <thead class="table-dark">
         <tr>
-          <th scope="col" class=" p-3 w-20 text-nowrap" >#</th>
+          <th scope="col" class=" p-3 w-20 text-nowrap" ># </th>
           <th scope="col" class=" p-3 w-20 text-nowrap">Note</th>
           <th scope="col" class=" p-3 w-20 text-nowrap">Tên Sách</th>
           <th scope="col" class=" p-3 w-20 text-nowrap">Khách Hàng</th>

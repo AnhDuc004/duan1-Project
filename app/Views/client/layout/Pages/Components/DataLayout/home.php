@@ -17,7 +17,7 @@
 
     <div>
         <div class="div-title-banner">
-            <h3>SÁCH MỚI TÁI BẢN </h3>
+            <h3>SÁCH MỚI TÁI BẢN</h3>
         </div>
         <ul class="listbook">
             <?php foreach ($data['bookNew'] as $bookNew) : ?>
@@ -51,7 +51,7 @@
 
     <div>
         <div class="div-title-banner">
-            <h3>SÁCH BÁN CHẠY</h3>
+            <h3>SÁCH BÁN CHẠY </h3>
         </div>
         <ul class="listbook">
             <?php foreach ($data['bookSeller'] as $bookSeller) : ?>
@@ -71,7 +71,7 @@
                             </div>
                             <p class="p-price">
 
-                                <a href="#" class="a-price"> <?= number_format($bookSeller['price']) ?></a>
+                                <a href="#" class="a-price"> <?= number_format($bookSeller['price']) ?> </a>
                                 <a href="<?= URL ?>Home/bookDetail/<?= $bookSeller['id'] ?>/<?= $bookSeller['cateID'] ?>" class="a-buyNow">Mua ngay</a>
                                 <!-- <a href="#" class="a-buyNow">Mua ngay</a> -->
                             </p>
