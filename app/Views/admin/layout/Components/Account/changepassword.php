@@ -4,7 +4,7 @@ $err=$data[0];
     <div class="div-update-contain">
         <div class="div-form-update">
             <form action="<?= URL?>Admin/changePassword/" method="POST" class="form-login ml-3  ">
-                <h2 class="h3-login">Thay đổi mật khẩu</h2>
+                <h2 class="h3-login">Đổi mật khẩu</h2>
                 <div class="div-input-box p-3">
                     <label for="">Mật khẩu cũ:</label>
                     <input type="text" name="old-password" class="form-control" style="width:500px" required>
