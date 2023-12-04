@@ -19,7 +19,7 @@
                 <div class="div-input-site col">
                     
                     <div class="div-input-box p-3">
-                        <label for="">Email</label>
+                        <label for="">Email </label>
                         <input type="text" name="email" class="form-control" class="input-form-login"  value="<?= $data['admin']['email'] ?? '' ?>" required>
                     </div>
 
