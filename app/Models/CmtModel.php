@@ -4,7 +4,7 @@ class CmtModel extends BaseModel {
 
     protected $table = "feedback";
 
-    function addedCmt($note,$bookID,$clientID,$dateCreated) {
+    function addedCmt($note,$bookID,$clientID,$dateCreated){
 
         if($this->table !== null) {
             $sql = "INSERT INTO $this->table (note,bookID,clientID,dateCreated) VALUES(?,?,?,?)";
