@@ -3,7 +3,7 @@
     <div class="div-container-cart">
         <div class="div-main-cart">
             <div class="cart-empty">
-                <img src="<?= URL?>/Public/images/product/cart_empty.png" alt="">
+                <img src="<?= URL?>/Public/images/product/cart_empty.png" alt="" >
             </div>
             <div style="text-align: center;" class="content_cart-empty">
                 <h4>Giỏ hàng đang cảm thấy trống trải</h4>

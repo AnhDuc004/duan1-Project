@@ -17,7 +17,7 @@
 
     <div>
         <div class="div-title-banner">
-            <h3>SÁCH MỚI TÁI BẢN</h3>
+            <h3>SÁCH MỚI TÁI BẢN </h3>
         </div>
         <ul class="listbook">
             <?php foreach ($data['bookNew'] as $bookNew) : ?>

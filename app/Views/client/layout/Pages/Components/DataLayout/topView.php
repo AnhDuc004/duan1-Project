@@ -17,7 +17,7 @@
 
     <div>
         <div class="div-title-banner">
-            <h3>SÁCH CÓ LƯỢT XEM NHIỀU NHẤT</h3>
+            <h3>SÁCH CÓ LƯỢT XEM NHIỀU NHẤT </h3>
         </div>
         <ul class="listbook">
             <?php foreach ($data['viewBook'] as $viewBook) : ?>

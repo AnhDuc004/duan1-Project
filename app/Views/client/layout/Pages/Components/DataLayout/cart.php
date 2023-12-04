@@ -1,6 +1,6 @@
 <?php require_once "./app/Views/client/layout/Pages/header.php"; ?>
 
-<div class="div-container-cart" >
+<div class="div-container-cart">
     <img src="" alt="">
     <div class="div-main-cart">
         <?php if (count($_SESSION['carts']) > 0) : ?>
@@ -10,7 +10,7 @@
                     <?= $_SESSION['msgDelSuccessCart'] ?? '';
                     unset($_SESSION['msgDelSuccessCart']) ?>
                 </div>
-                <div class="đây là msg thông báo khi người dùng update giỏ hàng thành công">
+                <div class="đây là msg thông báo khi người dùng update giỏ hàng thành công ">
                     <?= $_SESSION['msgUpdateCartSuccess'] ?? '';
                     unset($_SESSION['msgUpdateCartSuccess']) ?>
                 </div>

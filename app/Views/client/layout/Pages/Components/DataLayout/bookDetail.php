@@ -15,7 +15,7 @@
                         <li>Số Lượng:
                             <a href="#"> <?= $data['book']['quantity'] > 0 ? $data['book']['quantity'] : "Hết Hàng"?></a>
                         </li>
-                        <li>Tác giả: <a href="#"><?= $data['book']['authorName'] ?></a></li>
+                        <li>Tác giả:<a href="#"><?= $data['book']['authorName'] ?></a></li>
                         <li>Lượt xem: <?= $data['book']['view'] ?></li>
                         <!-- <li>Dịch giả: <a href="#">Hoàng Đức Long</a></li>
                         <li>Nhà xuất bản: <a href="#">Thế Giới</a></li>
