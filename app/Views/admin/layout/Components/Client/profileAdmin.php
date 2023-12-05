@@ -42,7 +42,7 @@
                     </div>
 
                     <div class="div-input-box p-3">
-                        <label for="">Number</label>
+                        <label for="">number</label>
                         <input type="text" name="phoneNumber" class="form-control" value="<?= $data['admin']['phoneNumber'] ?? '' ?>" required>
                         
                     </div>
