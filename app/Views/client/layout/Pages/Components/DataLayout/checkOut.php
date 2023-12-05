@@ -21,11 +21,17 @@
                                 <th>Địa chỉ</th>
                             </thead>
                             <tbody>
-                                <tr class="tr-infor">
+                                <!-- <tr class="tr-infor">
                                     <td><input type="text" class="inputDis" name="username" id="" value="<?= $_SESSION['username'] ?? '' ?>" disabled></td>
                                     <td><input type="text" class="inputDis" name="email" id="" value="<?= $_SESSION['email'] ?? '' ?>" disabled></td>
                                     <td><input type="text" class="inputDis" name="phoneNumber" id="" value="<?= $_SESSION['phone'] ?? '' ?>" disabled></td>
                                     <td><input type="text" class="inputDis" name="address" id="" value="<?= $_SESSION['address'] ?? '' ?>" disabled></td>
+                                </tr> -->
+                                <tr>
+                                    <td><input type="text" class="inputpro" name="username" value="<?= $_SESSION['username']?? '' ?>" id=""></td>
+                                    <td><input type="text" class="inputpro" name="email" value="<?= $_SESSION['email']?? '' ?>" id=""></td>
+                                    <td><input type="text" class="inputpro" name="phone" value="<?= $_SESSION['phone']?? '' ?>" id=""></td>
+                                    <td><input type="text" class="inputpro" name="address" value="<?= $_SESSION['address']?? '' ?>" id=""></td>
                                 </tr>
                             </tbody>
                         </table>
