@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-  <title>Danh Mục Khách Hàng</title>
+  <title>Danh mục Khách Hàng</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,7 +15,7 @@
 <body>
     <header>
         <div class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand mx-2" href="<?= URL?>Admin/listClient">DANH SÁCH KHÁCH HÀNG</a>
+            <a class="navbar-brand mx-2" href="<?= URL?>Admin/listClient">DANH SÁCH KHÁCH HÀNG </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
@@ -51,7 +51,7 @@
                         <th scope="row" class=" p-3 w-20 text-nowrap"><?= $client['email']?></th>
                         <th scope="row" class=" p-3 w-20"><?= $client['address']?></th>
                         <th scope="row" class=" p-3 w-20 text-nowrap"><?= $client['phoneNumber']?></th>
-                        <th><img src="<?= URL?>/Public/upload/<?= $client['avatar'] ?>" alt="." style="height: 100px;"></th>
+                        <th><img src="<?= URL?>/Public/upload/<?= $client['avatar'] ?>" alt="." style="height: 100px;"> </th>
                         <th scope="row" class=" p-3 w-20 text-center"><?= $client['role']?></th>
                         <th><a href="<?= URL?>User/update/<?= $client['clientID']?>" class="btn btn-info">Update</a></th>
                         <th><a href="<?= URL?>User/delete/<?= $client['clientID']?>" class="btn btn-danger" onclick="return confirm('Bạn có muốn xóa không?')">Delete</a></th>

@@ -1,6 +1,6 @@
 <?php require_once "./app/Views/admin/layout/Components/header.php";?>
 
-<div class="div-update-contain">
+<div class="div-update-contain" >
     <div class="div-form-update">
         <form action="<?= URL ?>Admin/profile/<?= $data['admin']['clientID'] ?>" class="form-login ml-3" method="post" enctype="multipart/form-data">
             <h2 class="h3-login">Profile</h3>
@@ -19,7 +19,7 @@
                 <div class="div-input-site col">
                     
                     <div class="div-input-box p-3">
-                        <label for="">Email</label>
+                        <label for="">Email </label>
                         <input type="text" name="email" class="form-control" class="input-form-login"  value="<?= $data['admin']['email'] ?? '' ?>" required>
                     </div>
 
@@ -42,7 +42,7 @@
                     </div>
 
                     <div class="div-input-box p-3">
-                        <label for="">Number</label>
+                        <label for="">number</label>
                         <input type="text" name="phoneNumber" class="form-control" value="<?= $data['admin']['phoneNumber'] ?? '' ?>" required>
                         
                     </div>

@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-  <title>Danh Sách Bình Luận</title>
+  <title>Danh Sách Bình Luận </title>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -30,7 +30,7 @@
     <table class="table text-center">
       <thead class="table-dark">
         <tr>
-          <th scope="col" class=" p-3 w-20 text-nowrap" >#</th>
+          <th scope="col" class=" p-3 w-20 text-nowrap" ># </th>
           <th scope="col" class=" p-3 w-20 text-nowrap">Note</th>
           <th scope="col" class=" p-3 w-20 text-nowrap">Tên Sách</th>
           <th scope="col" class=" p-3 w-20 text-nowrap">Khách Hàng</th>

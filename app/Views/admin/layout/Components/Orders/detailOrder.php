@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Cập Nhật Khách Hàng</title>
+    <title>Cập Nhật Khách Hàng </title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -15,7 +15,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <a class="navbar-brand mx-2" href="#">CHI TIẾT ĐƠN HÀNG</a>
+            <a class="navbar-brand mx-2" href="#">CHI TIẾT ĐƠN HÀNG </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,7 +25,7 @@
     <main class="m-2">
         <div class="d-flex">
             <div class="col-3">
-                <h4>THÔNG TIN KHÁCH HÀNG</h4>
+                <h4>THÔNG TIN KHÁCH HÀNG </h4>
                 <div class="table-responsive">
                     <table class="table table-striped
                     table-hover	

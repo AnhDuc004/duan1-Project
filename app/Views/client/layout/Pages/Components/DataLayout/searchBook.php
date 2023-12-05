@@ -38,7 +38,7 @@
                                 <p class="p-price">
 
                                     <a href="#" class="a-price"> <?= number_format($bookSearch['price']) ?></a>
-                                    <a href="#" class="a-buyNow">Mua ngay</a>
+                                    <a href="#" class="a-buyNow">Mua ngay </a>
                                 </p>
                             </div>
                         </ul>

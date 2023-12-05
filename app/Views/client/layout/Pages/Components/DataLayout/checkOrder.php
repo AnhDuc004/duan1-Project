@@ -8,7 +8,7 @@
             </div>
             <div style="text-align: center;" class="content_cart-empty">
                 <h4>Giỏ hàng đang cảm thấy trống trải</h4>
-                <span>Ai đó ơi, mua sắm để nhận khuyến mãi ngay nào!</span>
+                <span>Mua sắm để nhận khuyến mãi ngay nào!</span>
                 <a href="<?= URL ?>Home" class="submit-btn">Mua sắm ngay</a>
             </div>
         </div>
@@ -64,7 +64,7 @@
                             </div>
                             <div style="text-align: center;" class="content_cart-empty">
                                 <h4>Giỏ hàng đang cảm thấy trống trải</h4>
-                                <span>Ai đó ơi, mua sắm để nhận khuyến mãi ngay nào!</span>
+                                <span>Mua sắm để nhận khuyến mãi ngay nào!</span>
                                 <a href="<?= URL ?>Home" class="submit-btn">Mua sắm ngay</a>
                             </div>
                         </div>

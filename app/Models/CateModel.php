@@ -23,7 +23,7 @@ class CateModel extends BaseModel{
         }
     }
     // Phân trang
-    function getPage($id,$page) {
+    function getPage($id,$page){
         if($this->table !== null) {
             // $page = 1;
             $end = 6;

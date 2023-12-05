@@ -10,13 +10,13 @@
                     <?= $_SESSION['msgDelSuccessCart'] ?? '';
                     unset($_SESSION['msgDelSuccessCart']) ?>
                 </div>
-                <div class="đây là msg thông báo khi người dùng update giỏ hàng thành công">
+                <div class="đây là msg thông báo khi người dùng update giỏ hàng thành công ">
                     <?= $_SESSION['msgUpdateCartSuccess'] ?? '';
                     unset($_SESSION['msgUpdateCartSuccess']) ?>
                 </div>
                 <thead class="thead-title">
                     <tr class="tr-title">
-                        <td class="td-cart"></td>
+                        <td class="td-cart"> </td>
                         <td class="td-cart">Tiêu đề</td>
                         <td class="td-cart">Giá</td>
                         <td class="td-cart">Số lượng</td>

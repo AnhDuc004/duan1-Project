@@ -35,7 +35,7 @@
                                 </tr>
                             </tbody>
                         </table>
-                        <h2>Thông tin sản phẩm</h2>
+                        <h2>Thông tin sản phẩm </h2>
                         <table class="table-checkout">
                             <thead class="thead-checkout">
                                 <th>STT</th>

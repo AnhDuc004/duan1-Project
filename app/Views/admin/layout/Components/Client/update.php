@@ -1,9 +1,9 @@
-<?php require_once "./app/Views/admin/layout/Components/header.php"; ?>
+<?php require_once "./app/Views/admin/layout/Components/header.php";?>
 <!doctype html>
 <html lang="en">
 
 <head>
-    <title>Cập Nhật Khách Hàng</title>
+    <title>cập nhật khách hàng </title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -66,7 +66,7 @@
             </div>
             <div class="form-group mx-auto my-2">
                 <input type="submit" name="btn-update" value="Cập Nhật" class="btn btn-primary">
-                <a href="<?= URL ?>Admin/listClient" class="btn btn-primary">Danh Sách</a>
+                <a href="<?= URL ?>Admin/listClient" class="btn btn-primary">Danh Sách </a>
             </div>
         </form>
     </main>

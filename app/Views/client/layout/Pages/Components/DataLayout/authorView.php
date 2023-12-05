@@ -29,7 +29,7 @@
         </div>
         <div class="div-author-bookList">
             <div class="div-title-banner-author">
-                <h3 style="margin-bottom: 10px;"><?= $data['author']['authorName'] ?></h3>
+                <h3 style="margin-bottom: 10px;"><?= $data['author']['authorName'] ?> </h3>
             </div>
             <ul class="listbook">
                 <li class="li-book">
@@ -49,7 +49,7 @@
                                 </ul>
                             </div>
                             <p class="p-price">
-                                <a href="<?= URL ?>Home/bookDetail/<?= $data['author']['id'] ?>/<?= $data['author']['cateID'] ?>" class="a-price">Mua ngay</a>
+                                <a href="<?= URL ?>Home/bookDetail/<?= $data['author']['id'] ?>/<?= $data['author']['cateID'] ?>" class="a-price">Mua ngay </a>
                                 <a href="<?= URL ?>Home/bookDetail/<?= $data['author']['id'] ?>/<?= $data['author']['cateID'] ?>" class="a-buyNow"> <?= number_format($data['author']['price']) ?>đ</a>
                             </p>
                         </div>

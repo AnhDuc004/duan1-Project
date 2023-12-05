@@ -46,7 +46,7 @@ class OrderModel extends BaseModel {
         
     }
 
-    //cập nhật trạng thái đơn hàng
+    //cập nhật trạng thái đơn 
     function updateStatus($status,$orderID) {
         if($this->table !== null) {
             $sql = "UPDATE $this->table SET $this->table.statusID = ? WHERE $this->table.id = ?";

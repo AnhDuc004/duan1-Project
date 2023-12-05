@@ -15,7 +15,7 @@ class BookModel extends BaseModel
             return $data;
         }
     }
-    // Methods Limit 10 sp mới nhất theo status
+    // Methods Limit 10 sp mới nhất theo statuss
     function limit10FollowStatus($statusID)
     {
         if ($this->table !== null) {
