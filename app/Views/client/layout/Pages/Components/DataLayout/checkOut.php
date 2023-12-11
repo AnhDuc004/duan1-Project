@@ -63,7 +63,7 @@
                                     <td class="td-checkOut"></td>
                                     <td class="td-checkOut"></td>
                                     <td class="td-checkOut">Phí vận chuyển</td>
-                                    <td class="td-checkOut">30,000</td>
+                                    <td class="td-checkOut">Free</td>
                                 </tr>
                                 <tr>
                                     <td class="td-checkOut"></td>
