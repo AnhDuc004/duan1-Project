@@ -40,7 +40,7 @@
                                         <td class="td-checkCart"><?= number_format($clientOrder['priceOrder']) ?? '' ?></td>
                                         <td class="td-checkCart"><?= number_format($clientOrder['sumPriceOrder']) ?? '' ?></td>
                                         <td class="td-checkCart"><?= $clientOrder['statusOrderName'] ?></td>
-                                        <td><a href="<?= URL ?>Home/destroyOrder/<?= $clientOrder['orderDetailID'] ?>" onclick="return confirm('Are you sure?');">HỦY</a></td>
+                                        <td><a href="<?= URL ?>Home/destroyOrder/<?= $clientOrder['orderDetailID'] ?>" onclick="return confirm('Bạn có chắc muốn hủy đơn hàng?');">HỦY</a></td>
                                     </tr>
                                 <?php else : ?>
                                     <!-- Những trạng thái khác ngoài 1,2,5 thì không cho hủy -->

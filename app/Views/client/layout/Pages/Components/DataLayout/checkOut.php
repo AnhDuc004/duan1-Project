@@ -77,7 +77,7 @@
                     </div>
                 </div>
                 <h2 class="h2-checkout">
-                    <button type="submit" name="submit-checkout">Xác nhận thanh toán </button>
+                    <button type="submit" name="submit-checkout" onclick="return confirm('Xác nhận đúng thông tin mua hàng!');">Xác nhận thanh toán </button>
                 </h2>
             </form>
         <?php endif ?>

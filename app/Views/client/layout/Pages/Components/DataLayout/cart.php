@@ -27,7 +27,7 @@
                 <tbody>
                     <?php foreach ($_SESSION['carts'] as $cart) : ?>
                         <tr class="tr-cart">
-                            <td class="td-cart"><a href="<?= URL ?>Home/delCart/<?= $cart['cartID'] ?>" onclick="return confirm('Are you sure?')"><button class="deleteBtn" style="cursor: pointer;font-weight: 900;">X</button></a></td>
+                            <td class="td-cart"><a href="<?= URL ?>Home/delCart/<?= $cart['cartID'] ?>" onclick="return confirm('Bạn có chắc muốn xóa đơn này khỏi giỏ hàng?')"><button class="deleteBtn" style="cursor: pointer;font-weight: 900;">X</button></a></td>
                             <td class="td-cart"><?= $cart['bookName'] ?? '' ?></td>
                             <td class="td-cart"><?= number_format($cart['price'] ?? '') ?></td>
                             <td class="td-cart">
